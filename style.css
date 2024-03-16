@@ -194,7 +194,7 @@ p {
 }
 
 /* Styles for mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 490px) {
   .container {
     width: 95%;
   }
@@ -205,34 +205,9 @@ p {
   .search_section {
     size: 10px;
   }
-  main {
-    padding: 10px;
-  }
-  .input_section,
-  .book_shelf {
-    padding: 10px;
-  }
-  .input_section > form > .input > label,
-  .input_section > form > .input_inline > label,
-  .search_section label,
-  .search_section > h2,
-  .book_shelf > .book_list > .book_item > h3,
-  .book_shelf > .book_list > .book_item > p {
-    font-size: 14px;
-  }
-  .input_section > form > .input > input,
-  .search_section > form > input {
-    padding: 5px;
-    font-size: 14px;
-  }
-  .search_section > form > button {
-    padding: 5px 10px;
-  }
-  .book_shelf > .book_list > .book_item {
-    padding: 8px; /* Mengurangi padding untuk item buku agar lebih sesuai dengan layar mobile */
-  }
+
   footer {
-    padding: 5px 0; /* Mengurangi padding footer agar lebih sesuai dengan layar mobile */
+    display: none; /* Mengurangi padding footer agar lebih sesuai dengan layar mobile */
   }
 }
 
