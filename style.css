@@ -194,7 +194,7 @@ p {
 }
 
 /* Styles for mobile */
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 450px) {
   .container {
     width: 95%;
   }
